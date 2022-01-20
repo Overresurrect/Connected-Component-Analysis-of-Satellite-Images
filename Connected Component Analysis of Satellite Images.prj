@@ -1,0 +1,68 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2792306251" file="C:\Users\JUNE\Desktop\Micro Project\Connected Component Analysis of Satellite Images.prj" location="C:\Users\JUNE\Desktop\Micro Project" name="Connected Component Analysis of Satellite Images" target="target.mlapps" target-name="Package App">
+    <param.appname>Connected Component Analysis of Satellite Images</param.appname>
+    <param.authnamewatermark>Aayush Jamuar</param.authnamewatermark>
+    <param.email />
+    <param.company>Siddaganga Institute of Technology</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Perform a connected component analysis of the satellite images.</param.summary>
+    <param.description>Done by:
+Aayush Jamuar
+Aditya Bhardwaj
+Alok Sharma 
+Vishwa Makam</param.description>
+    <param.screenshot>C:\Users\JUNE\AppData\Local\Temp\tp92a024a3_3bbf_4582_9e2d_03759fc55cd1.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>c7ab9cae-7ded-4d40-9944-4557263304e8</param.guid>
+    <unset>
+      <param.email />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app1.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\greatlake.jpg</file>
+      <file>${PROJECT_ROOT}\Lake.png</file>
+      <file>${PROJECT_ROOT}\Lake2.jpg</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\JUNE\Desktop" name="Micro Project" optional="false">C:\Users\JUNE\Desktop\Micro Project</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
